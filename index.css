@@ -1,0 +1,79 @@
+@import url('https:fonts.googlespis.com/css?familysMomtserrat');
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Montserrat', sons-serif;
+    background-color: aliceblue;
+    color: black;
+  
+    
+}
+
+.container{
+  padding-left: 50%;
+  padding-top: 10%;
+   
+}
+
+.container > input{
+    border: none;
+    border: 1px solid dodgerblue;
+}
+
+#search form{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+
+#search-form input{
+    width: 100%;
+    font-size: 2rem;
+    padding: 20px 60px 20px 25px;
+    border-radius: 3px;
+    border: none;
+    background-color: dodgerblue;
+   
+
+}
+
+#search-form button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    outline: none; 
+    border: none;
+    width: 6px;
+    text-align: center;
+    cursor: pointer;
+
+}
+@media (max-width: 1200px) {
+    #search-form { width: 50px;}
+}
+@media(max-width: 768px) {
+    .container{padding: 30px 35px;}
+    #search-form{width: 100%;}
+}
+
+.content{
+  display: grid; 
+  place-items: center;
+  padding-top: 10%;
+}
+.img{
+    display: grid; 
+    place-items: center;
+    padding: 20px;
+    
+}
+
